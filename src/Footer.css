@@ -1,0 +1,34 @@
+footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Vertical padding */
+    position: relative; /* Allow positioning for any fixed elements */
+    bottom: 0; /* Stick footer to bottom if needed */
+    width: 100%; /* Full width */
+}
+
+footer p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0; /* Space above and below the list */
+}
+
+footer li {
+    display: inline; /* Inline list items */
+    margin: 0 15px; /* Space between links */
+}
+
+footer a {
+    color: #f4d03f; /* Yellow color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}

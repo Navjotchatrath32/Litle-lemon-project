@@ -1,0 +1,56 @@
+.customers-say {
+  padding: 20px; /* Add padding around the section */
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.customers-say h2 {
+  text-align: center; /* Center the heading */
+  font-size: 2em; /* Increase font size for prominence */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Darker color for the heading */
+}
+
+.customers-say ul {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap onto new lines */
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Space between items */
+}
+
+.customers-say li {
+  background-color: #ffffff; /* White background for each testimonial */
+  border: 1px solid #ddd; /* Light border for definition */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Space inside each testimonial */
+  text-align: center; /* Center align text */
+  max-width: 250px; /* Max width for each testimonial */
+  transition: transform 0.3s; /* Animation on hover */
+}
+
+.customers-say li:hover {
+  transform: scale(1.05); /* Slightly enlarge item on hover */
+}
+
+.customer-image {
+  width: 80px; /* Fixed width for the customer images */
+  height: 80px; /* Fixed height for the customer images */
+  border-radius: 50%; /* Circular images */
+  object-fit: cover; /* Cover the area without distortion */
+  margin-bottom: 10px; /* Space below the image */
+}
+
+.customers-say p {
+  font-size: 1em; /* Regular font size for review */
+  margin: 10px 0; /* Space above and below the review */
+  color: #555; /* Darker gray color for better readability */
+}
+
+.customers-say h4 {
+  font-size: 1.2em; /* Increase font size for customer name */
+  margin: 5px 0; /* Space above and below the name */
+  color: #333; /* Darker color for the name */
+}

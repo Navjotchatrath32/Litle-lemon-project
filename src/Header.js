@@ -1,19 +1,14 @@
 
 import React from 'react';
 import logo from'./logo.png';
+import './Header.css';
 
 const Header = () => {
   return (
     <header>
          <img src={logo} alt="Little Lemon Logo" style={{ height: '50px' }} />
-      <h1>Welcome to Our Website</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
+      <h1>Welcome to Little Lemon Restaurant</h1>
+      
     </header>
   );
 }

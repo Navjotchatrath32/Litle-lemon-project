@@ -1,0 +1,42 @@
+/* HeroSection.css */
+
+.hero {
+    background-image: url('./restaurant.jpg'); /* Set your background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 60vh; /* Set a height for the hero section */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    color: #fff; /* White text color */
+    position: relative; /* Position for pseudo-element */
+}
+
+.hero::before {
+    content: ""; /* Pseudo-element for overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure the overlay is on top */
+}
+
+.hero-content {
+    position: relative; /* Position for content to be on top of overlay */
+    z-index: 2; /* Ensure content is above the overlay */
+}
+
+h1 {
+    font-size: 3em; /* Large title */
+    margin: 0; /* Remove default margin */
+    color:#fff;
+}
+
+p {
+    font-size: 1.5em; /* Tagline size */
+    margin-top: 0.5em; /* Space between title and tagline */
+    color: #fff;
+}

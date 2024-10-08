@@ -1,0 +1,7 @@
+.header-logo {
+    width: 100px;
+    height: auto; /* Keep aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    color:aliceblue;
+  }
+  

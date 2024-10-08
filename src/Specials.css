@@ -1,0 +1,22 @@
+/* Specials.css */
+.specials {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light grey background */
+  }
+  
+  .special-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .special-item img {
+    height: 100px;
+    margin-right: 1rem;
+  }
+  
