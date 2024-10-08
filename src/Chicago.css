@@ -5,7 +5,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
   max-width: 800px; /* Limit the width of the section */
   margin: 20px auto; /* Center the section with auto margins */
-  grid-template-columns: 2;
+  
 }
 
 

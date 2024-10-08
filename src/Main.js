@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect, useState } from 'react';
 import BookingForm from './BookingForm';
-import { fetchAPI } from './api';  // Ensure it's imported correctly
+import { fetchAPI } from './api';  // Ensure fetchAPI is imported correctly
 
 const initialState = {
     selectedDate: new Date().toISOString().slice(0, 10), // Set default date to today's date
@@ -27,7 +27,8 @@ const Main = () => {
         const fetchAvailableTimes = async () => {
             try {
                 const times = await fetchAPI(state.selectedDate);  // Fetch times for the selected date
-                setAvailableTimes(times);
+                console.log("Fetched available times: ", times);  // Debugging: Check available times
+                setAvailableTimes(times);  // Update the availableTimes state
             } catch (error) {
                 console.error("Error fetching available times:", error);
             }
@@ -38,7 +39,7 @@ const Main = () => {
 
     return (
         <BookingForm
-            availableTimes={availableTimes}
+            availableTimes={availableTimes}  // Pass availableTimes as a prop
             dispatch={dispatch}
         />
     );

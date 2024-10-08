@@ -8,7 +8,4 @@ test('renders learn react link', () => {
     expect(linkElement).toBeInTheDocument(); 
 });
 
-// src/Main.test.js
 
-
-// src/BookingForm.test.js

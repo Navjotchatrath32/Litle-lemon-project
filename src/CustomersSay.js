@@ -18,7 +18,7 @@ const CustomersSay = () => {
       <ul>
         {testimonialsData.map(customer => (
           <li key={customer.id}>
-            <img src={customer.image} alt={customer.name} />
+            <img  className="customer-image" src={customer.image} alt={customer.name} />
             <p>{customer.review}</p>
             <h4>{customer.name}</h4>
           </li>
